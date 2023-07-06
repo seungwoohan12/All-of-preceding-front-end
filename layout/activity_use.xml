@@ -45,6 +45,7 @@
         android:text="이용약관"
         android:textColor="#000000"
         android:textSize="20sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="76dp" />
 
@@ -55,6 +56,7 @@
         android:text="개인정보이용동의"
         android:textColor="#000000"
         android:textSize="20sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="317dp" />
 
@@ -82,6 +84,7 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="351dp"
         android:layout_height="153dp"
+        android:background="#D9D9D9"
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="30dp"
@@ -91,6 +94,7 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="351dp"
         android:layout_height="153dp"
+        android:background="#D9D9D9"
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="30dp"

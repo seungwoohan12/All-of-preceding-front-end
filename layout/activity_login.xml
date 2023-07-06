@@ -6,13 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#D9D9D9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="이메일"
+        android:textColor="#979797"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#D9D9D9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="비밀번호 8자리 이상"
+        android:textColor="#979797"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="86dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="400dp"
+        android:text="동아리"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="127dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="86dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="400dp"
+        android:text="기업"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="213dp" />
+
     <Button
         android:id="@+id/btn_individual"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="240dp"
         android:rotationX="-4"
         android:text="개인"
         android:textAlignment="center"
@@ -20,16 +89,14 @@
         android:textStyle="bold"
         app:backgroundTint="#3281F8"
         app:layout_constraintBottom_toTopOf="@+id/btn_finder"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/btn_organ"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="240dp"
         android:rotationX="-4"
         android:text="단체        (동아리/기업)"
         android:textAlignment="center"
@@ -37,18 +104,7 @@
         android:textStyle="bold"
         app:backgroundTint="#3281F8"
         app:layout_constraintBottom_toTopOf="@+id/btn_register"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_register"
