@@ -1,4 +1,4 @@
-# 👍선행의 모든 것
+# 👍선행의 모든 것 _ FRONTEND
 
 👨‍💻 투입인원 : 8명
 <br />
@@ -8,7 +8,9 @@
 <br />
 <br />
 ## 💻 이용한 기술 스택
- <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/styled_components-DB7093?style=flat&logo=styled%20components&logoColor=white"/>
+ <img src="https://img.shields.io/badge/Kotlin-A8C0C6?style=flat&logo=Kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android%20Studio-8C34FB?style=flat&logo=AndroidStudio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FC0101?style=flat&logo=Firebase&logoColor=white"/> 
  
 ## 주요 요구 사항
 1. 기획 및 UI 디자인
