@@ -18,5 +18,18 @@
 3. Firebase를 통한 유저 및 데이터 관리와 Hosting
 4. 공공데이터, 카카오 지도 활용
 5. Play Store, One Store 출시
+Commit Message Convention
 
+## 단어 설명
+CHORE: 코드 수정, 내부 파일 수정
+
+FEAT: 새로운 기능 추가
+
+FIX: 버그, 오류 수정
+
+DOCS: README 등의 문서 수정
+
+REFACTOR: 전면 수정(코드 리펙토링)
+
+TEST: 테스트 코드 추가 및 수정
 <br />
